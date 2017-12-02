@@ -1,0 +1,18 @@
+# Generated automatically by bestow v0.4.0
+# See 'bestow help tutorial' for a detailed user manual about be.stow syntax
+
+neovim {
+	into = $HOME/.config/nvim/
+
+	init.vim
+	plugins.vim
+}
+
+core {
+	into = $HOME/.config/nvim/core
+
+	01-platform.vim
+	02-functions.vim
+	03-windows.vim
+	04-functions.vim
+}
