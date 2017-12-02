@@ -1,5 +1,3 @@
-# This is just a place holder
-
 This is my lean and clean [neovim](https://neovim.io) editor setup.
 
 # Plugins

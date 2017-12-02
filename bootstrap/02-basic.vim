@@ -16,6 +16,3 @@ endif
 if &term[:4] == "xterm" || &term[:5] == 'screen' || &term[:3] == 'rxvt'
 	inoremap <silent> <C-[>OC <RIGHT>
 endif
-
-" TODO: expand XDG specs for all the OSes
-"let xdg_config = expand('<sfile>:p:h')

@@ -6,6 +6,8 @@ runtime! bootstrap/*.vim
 
 " Load all the plugins
 " ==============================================================================
+" TODO: expand XDG specs for all the OSes
+let xdg_config = expand('<sfile>:p:h')
 runtime! plugins.vim
 filetype plugin indent on                "Enable plugins and indents by filetype
 
@@ -28,8 +30,9 @@ set gcr=a:blinkon500-blinkwait500-blinkoff500    "Set cursor blinking rate
 
 " Highlight
 set cursorline                           "Highlight current line
-highlight clear SignColumn      "SignColumn should match background
-highlight clear LineNr          "Current line number row will have same background color in relative mode
+highlight clear SignColumn               "SignColumn should match background
+highlight clear LineNr                   "Current line number row will have same
+                                         "background color in relative mode
 
 " Search config
 set incsearch               "Search as characters are entered
